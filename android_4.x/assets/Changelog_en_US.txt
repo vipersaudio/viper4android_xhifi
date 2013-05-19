@@ -1,0 +1,72 @@
+﻿ViPER4Android XHiFi v2.1.0.0
+Codename: X-Factor
+Copyright (C) 2006-2016 vipercn.com
+
+Latest: v2.1.0.0
+1.Compatible with PXA920 chip (Tegra2 driver).
+2.Fix a treble boost bug.
+3.Tweak parameters of audio reconstruct.
+
+************
+[v2.0.0.1]
+1.Audio reconstruct technology.
+2.10 band 2047 order FIR eq.
+3.High-res "Bit Perfect" auto playback gain control.
+4.New application icon.
+5.First release.
+
+[v2.0.0.2]
+1.Tweak the color and brightness of mid-freq sound.
+2.Lower memory requirements.
+3.Support for 32/44.1/48kHz sampling rate.
+4.Adapting android 2.3 system.
+5.Add driver status check function.
+
+[v2.0.0.2_1]
+1.More compatible between FX and XHiFi in android 2.3.
+
+[v2.0.0.3]
+1.Enhance eq effect.
+2.Speaker sound fixup.
+3.Add changelog dialog.
+
+[v2.0.0.4]
+1.Adjust eq effect, more comfortable.
+2.Bluetooth device effect fixup.
+
+[v2.0.0.5]
+1.More optimize, reduce cpu load.
+2.Fix some bugs.
+3.Tweak parameters of audio reconstruct.
+
+[v2.0.0.6]
+1.More optimize, reduce cpu load. Will support T2 chip soon.
+2.Fix MIUIv5 menu FC.
+3.Tweak parameters of audio reconstruct.
+
+[v2.0.0.7]
+1.Add changelog view in menu.
+2.Auto driver compatible install and update with ViPER4Android, no longer need to manually install.
+3.Add driver safe mode. If you got no audio effect, you can try to switch to safemode.
+4.Add normal and compatible mode. If you got no audio effect, you can try to switch to compatible mode.
+5.Effect profile support save and load.
+6.Improved UI interface and logic.
+7.Tweak parameters of audio reconstruct.
+8.Support TEGRA2 chip.
+9.Installation process will use toolbox first.
+
+[v2.0.0.8]
+1.Fix driver uninstall bug.
+2.Fix equalizer in Tegra2 platform.
+
+[v2.0.0.9]
+1.Driver installation/uninstallation more stable.
+2.Uninstall driver needs confirmation.
+3.Effect profile support overwrite.
+4.Tweak parameters of audio reconstruct.
+
+[v2.1.0.0]
+1.Compatible with PXA920 chip (Tegra2 driver).
+2.Fix a treble boost bug.
+3.Tweak parameters of audio reconstruct.
+************

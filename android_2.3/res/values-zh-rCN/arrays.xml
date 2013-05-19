@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <string-array name="cpu_platform_fx">
+    <item>老设备(ARMv5TE)</item>
+    <item>英伟达图睿2</item>
+    <item>带有NEON的A8</item>
+    <item>带有NEON的A9</item>
+  </string-array>
+
+  <string-array name="cpu_platform_xhifi">
+    <item>英伟达图睿2</item>
+    <item>带有NEON的A系列</item>
+  </string-array>
+
+  <string-array name="playbackgain_ratio">
+    <item>轻微</item>
+    <item>中等</item>
+    <item>极端</item>
+  </string-array>
+
+  <string-array name="multi_factor">
+    <item>1倍</item>
+    <item>2倍</item>
+    <item>3倍</item>
+    <item>4倍</item>
+    <item>5倍</item>
+    <item>6倍</item>
+    <item>7倍</item>
+    <item>8倍</item>
+    <item>9倍</item>
+    <item>10倍</item>
+    <item>无穷大</item>
+  </string-array>
+
+  <string-array name="output_db">
+    <item>0 分贝</item>
+    <item>-1.0 分贝</item>
+    <item>-1.9 分贝</item>
+    <item>-3.0 分贝</item>
+    <item>-6.0 分贝</item>
+    <item>-10.5 分贝</item>
+  </string-array>
+
+  <string-array name="output_volume">
+    <item>6.0 分贝</item>
+    <item>5.6 分贝</item>
+    <item>5.1 分贝</item>
+    <item>4.6 分贝</item>
+    <item>4.1 分贝</item>
+    <item>3.5 分贝</item>
+    <item>2.9 分贝</item>
+    <item>2.3 分贝</item>
+    <item>1.6 分贝</item>
+    <item>0.8 分贝</item>   
+    <item>0 分贝</item>
+    <item>-1.0 分贝</item>
+    <item>-1.9 分贝</item>
+    <item>-3.0 分贝</item>
+    <item>-4.4 分贝</item>
+    <item>-6.0 分贝</item>
+    <item>-8.0 分贝</item>
+    <item>-10.5 分贝</item>
+    <item>-14.0 分贝</item>
+    <item>-20.0 分贝</item>
+    <item>-26.0 分贝</item>
+    <item>-40.0 分贝</item>
+  </string-array>
+
+</resources>
