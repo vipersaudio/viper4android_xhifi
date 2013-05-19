@@ -9,7 +9,8 @@
   </string-array>
 
   <string-array name="cpu_platform_xhifi">
-    <item>英伟达图睿2</item>
+    <item>没有VFP(PXA920)</item>
+    <item>带有VFP的ARM</item>
     <item>带有NEON的A系列</item>
   </string-array>
 

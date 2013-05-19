@@ -16,12 +16,14 @@
   </string-array>
 
   <string-array name="cpu_platform_xhifi">
-    <item>NVIDIA Tegra2</item>
+    <item>Without VFP (PXA920)</item>
+    <item>With VFP</item>
     <item>CortexAx with NEON</item>
   </string-array>
 
   <string-array name="cpu_platform_xhifi_values" translatable="false">
-    <item>libv4a_xhifi_ics_T2.so</item>
+    <item>libv4a_xhifi_ics_NOVFP.so</item>
+    <item>libv4a_xhifi_ics_VFP.so</item>
     <item>libv4a_xhifi_ics_NEON.so</item>
   </string-array>
 
