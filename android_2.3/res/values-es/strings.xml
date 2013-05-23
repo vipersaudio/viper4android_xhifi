@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ViPER4Android XHiFi</string>
+    <string name="select_configuration_title">ViPER4Android XHiFi</string>
+    <string name="headset_title">Auriculares</string>
+    <string name="bluetooth_title">Dispositivo Bluetooth</string>
+    <string name="audio_effects">Efectos de Audio</string>
+    <string name="dsp_settings_headset">Ajustes de Efectos - Auriculares</string>
+    <string name="dsp_settings_bluetooth">Ajustes de Efectos - Dispositivo Bluetooth</string>
+    <string name="pref_dsp_enable">Habilitar</string>
+    <string name="pref_effect_title">Seleccione Efecto de Intensidad</string>
+    <string name="dialog_effect">Efecto de Intensidad</string>
+    <string name="pref_fx_master_title">Potencia Principal</string>
+    <string name="pref_fx_master_summary_on">V4A-FX esta Conectado</string>
+    <string name="pref_fx_master_summary_off">4A-FX esta Apagado</string>
+    <string name="pref_fx_limiter_title">Potencia Principal (limitador)</string>
+    <string name="pref_fx_limiter_threshold">Límite Umbral</string>
+    <string name="pref_output_gain">Potencia de Salida</string>
+    <string name="pref_playback_title">Control de Potencia reproducción</string>
+    <string name="pref_playback_summary_on">PlaybackAGC esta activado</string>
+    <string name="pref_playback_summary_off">PlaybackAGC esta desactivado</string>
+    <string name="pref_playback_output_threshold">Max Potencia de Salida</string>
+    <string name="pref_playback_maxgain">Max Ganancia</string>
+    <string name="pref_equalizer_title">FIREqualizador</string>
+    <string name="pref_equalizer_summary_on">FIREqualizador esta activado</string>
+    <string name="pref_equalizer_summary_off">FIREqualizador esta desactivado</string>
+    <string name="pref_equalizer_enable">Habilitar</string>
+    <string name="pref_equalizer_preset_title">Seleccionar Ajuste</string>
+    <string name="eq_preset_acoustic">Acústico</string>
+    <string name="eq_preset_bass_booster">Amplificar Graves</string>
+    <string name="eq_preset_bass_reducer">Reducir Graves</string>
+    <string name="eq_preset_classical">Clasica</string>
+    <string name="eq_preset_deep">Profundo</string>
+    <string name="eq_preset_flat">Plano</string>
+    <string name="eq_preset_r_and_b">R&amp;B</string>
+    <string name="eq_preset_rock">Rock</string>
+    <string name="eq_preset_small_speakers">Altavoces Pequeños</string>
+    <string name="eq_preset_treble_booster">Amplificar Agudos</string>
+    <string name="eq_preset_treble_reducer">Reducir Agudos</string>
+    <string name="eq_preset_vocal_booster">Amplificar Voz</string>
+    <string name="eq_preset_custom">Custom</string>
+    <string name="pref_xfisound_title">Audio Reconstruct</string>
+    <string name="pref_xfisound_summary_on">Reconstrucción de Audio Activado</string>
+    <string name="pref_xfisound_summary_off">Reconstrucción de Audio Desactivado</string>
+    <string name="pref_xfisound_enable">Habilitar</string>
+    <string name="pref_xfisound_process">Alta Claridad</string>
+    <string name="pref_xfisound_process_title">Seleccionar Alta Claridad</string>
+    <string name="pref_xfisound_locontour">Lo Contour</string>
+    <string name="pref_xfisound_locontour_title">Seleccionar Lo Contour</string>
+    <string name="menu_reset">Reiniciar</string>
+    <string name="text_precious_float_unit">Bit Flotante</string>
+    <string name="text_token_lost">ViPER4Android: Error de control de efectos, intenta volver a cargar el controlador.</string>
+    <string name="text_enabled">Habilitar</string>
+    <string name="text_disabled">Desactivado</string>
+    <string name="text_headset">Auriculares</string>
+    <string name="text_bluetooth">Bluetooth</string>
+    <string name="text_showtrayicon">Mostrar notificación</string>
+    <string name="text_lockeffect">Bloquear modo de efectos</string>
+    <string name="text_yes">Si</string>
+    <string name="text_no">No</string>
+    <string name="text_normal">Normal</string>
+    <string name="text_abnormal">Anormal</string>
+    <string name="text_effectprofile">Perfiles de Efectos</string>
+    <string name="text_loadfxprofile">Cargar Perfiles de Efectos</string>
+    <string name="text_savefxprofile">Guardar Perfiles de Efectos</string>
+    <string name="text_pleaseinputname">"Por favor, introduzca el nombre del perfil 
+No incluido '='"</string>
+    <string name="text_profilesaved_ok">Perfil Guardado.</string>
+    <string name="text_profilesaved_err">No se puede guardar el perfil, el nombre ya existe.</string>
+    <string name="text_profilesaved_overwrite">El nombre del perfil ya existe, ¿desea sobrescribir?</string>
+    <string name="text_profileload_ok">Perfil Cargado.</string>
+    <string name="text_profileload_err">No se puede cargar el perfil.</string>
+    <string name="text_rwsd_error">No se puede leer/escribir en almacenamiento externo.</string>
+    <string name="text_su_missing">Permisos Root (su binary) requerido.</string>
+    <string name="text_busybox_missing">"Busybox no encontrado. 
+Para utilizar ViPER4Android, necesita instalar busybox primero."</string>
+    <string name="text_ok">OK</string>
+    <string name="text_cancel">Cancelar</string>
+    <string name="text_select_cpu">Por favor seleccione su CPU</string>
+    <string name="text_drvvernotmatch">"Para utilizar ViPER4Android, necesita instalar / actualizar el controlador V4A. 
+El proceso de instalación se realizará automáticamente. 
+Instalar/actualizar ahora?"</string>
+    <string name="text_drvuninst_confim">¿Realmente desea desinstalar el controlador v4a?</string>
+    <string name="text_drv_blank" />
+    <string name="text_uninstall">Desinstalar Driver</string>
+    <string name="text_install">Instalar Driver</string>
+    <string name="text_drvinst_ok">Driver instalado, por favor reinicie su teléfono.</string>
+    <string name="text_drvuninst_ok">Driver desinstalado, por favor reinicie su teléfono.</string>
+    <string name="text_drvinst_failed">Driver no instalado, por favor confirme que su teléfono es Root y tiene busybox instalado.</string>
+    <string name="text_changelog">Changelog</string>
+    <string name="text_drv_status">Estado del driver</string>
+    <string name="text_drv_status_view">"
+ 
+Version Driver: %1$s 
+Activado: %2$s 
+Estado: %3$s 
+Procesamiento: %4$s 
+Tipo: %5$s 
+Frecuencia de muestreo: %6$d 
+Canales: %7$d 
+"</string>
+    <string name="text_service_error">Error al comunicarse con el servicio ViPER4Android.</string>
+    <string name="str_about">Thanks to alankila for EQ UI.</string>
+    <string name="str_copyright">Copyright© 2006–2016, vipercn.com.</string>
+</resources>
