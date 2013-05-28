@@ -39,7 +39,7 @@
     <string name="eq_preset_treble_reducer">Reducir Agudos</string>
     <string name="eq_preset_vocal_booster">Amplificar Voz</string>
     <string name="eq_preset_custom">Custom</string>
-    <string name="pref_xfisound_title">Audio Reconstruct</string>
+    <string name="pref_xfisound_title">Reconstrucción de Audio</string>
     <string name="pref_xfisound_summary_on">Reconstrucción de Audio Activado</string>
     <string name="pref_xfisound_summary_off">Reconstrucción de Audio Desactivado</string>
     <string name="pref_xfisound_enable">Habilitar</string>
@@ -74,13 +74,14 @@ No incluido '='"</string>
     <string name="text_su_missing">Permisos Root (su binary) requerido.</string>
     <string name="text_busybox_missing">"Busybox no encontrado. 
 Para utilizar ViPER4Android, necesita instalar busybox primero."</string>
-    <string name="text_ok">OK</string>
+    <string name="text_ok">Aceptar</string>
     <string name="text_cancel">Cancelar</string>
     <string name="text_select_cpu">Por favor seleccione su CPU</string>
     <string name="text_drvvernotmatch">"Para utilizar ViPER4Android, necesita instalar / actualizar el controlador V4A. 
 El proceso de instalación se realizará automáticamente. 
 Instalar/actualizar ahora?"</string>
     <string name="text_drvuninst_confim">¿Realmente desea desinstalar el controlador v4a?</string>
+    <string name="text_user_statistics">v4a. activado</string>
     <string name="text_drv_blank" />
     <string name="text_uninstall">Desinstalar Driver</string>
     <string name="text_install">Instalar Driver</string>
