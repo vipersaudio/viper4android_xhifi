@@ -3,10 +3,12 @@
     <string name="app_name">ViPER4Android XHiFi</string>
     <string name="select_configuration_title">ViPER4Android XHiFi</string>
     <string name="headset_title">耳機</string>
+    <string name="speaker_title">揚聲器</string>
     <string name="bluetooth_title">藍牙設備</string>
     <string name="audio_effects">音頻效果</string>
 
     <string name="dsp_settings_headset">音效設定 - 耳機</string>
+    <string name="dsp_settings_speaker">音效設定 - 揚聲器</string>
     <string name="dsp_settings_bluetooth">音效設定 - 藍牙設備</string>
 
     <string name="pref_dsp_enable">啓用</string>
@@ -65,6 +67,7 @@
     <string name="text_disabled">已停用</string>
     <string name="text_headset">頭戴設備</string>
     <string name="text_bluetooth">藍牙設備</string>
+    <string name="text_speaker">揚聲器</string>
     <string name="text_showtrayicon">顯示通知欄圖標</string>
     <string name="text_lockeffect">鎖定效果模式</string>
     <string name="text_yes">是</string>

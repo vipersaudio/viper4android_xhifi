@@ -3,10 +3,12 @@
     <string name="app_name">ViPER4Android XHiFi</string>
     <string name="select_configuration_title">ViPER4Android XHiFi</string>
     <string name="headset_title">耳机</string>
+    <string name="speaker_title">扬声器</string>
     <string name="bluetooth_title">蓝牙设备</string>
     <string name="audio_effects">音频效果</string>
 
     <string name="dsp_settings_headset">音效设定 - 耳机</string>
+    <string name="dsp_settings_speaker">音效设定 - 扬声器</string>
     <string name="dsp_settings_bluetooth">音效设定 - 蓝牙设备</string>
 
     <string name="pref_dsp_enable">启用</string>
@@ -65,6 +67,7 @@
     <string name="text_disabled">已禁用</string>
     <string name="text_headset">头戴设备</string>
     <string name="text_bluetooth">蓝牙设备</string>
+    <string name="text_speaker">扬声器</string>
     <string name="text_showtrayicon">显示通知栏图标</string>
     <string name="text_lockeffect">锁定效果模式</string>
     <string name="text_yes">是</string>

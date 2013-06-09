@@ -3,9 +3,11 @@
     <string name="app_name">ViPER4Android XHiFi</string>
     <string name="select_configuration_title">ViPER4Android XHiFi</string>
     <string name="headset_title">Auriculares</string>
+    <string name="speaker_title">Altavoz Teléfono</string>
     <string name="bluetooth_title">Dispositivo Bluetooth</string>
     <string name="audio_effects">Efectos de Audio</string>
     <string name="dsp_settings_headset">Ajustes de Efectos - Auriculares</string>
+    <string name="dsp_settings_speaker">Ajustes de Efectos - Altavoz Teléfono</string>
     <string name="dsp_settings_bluetooth">Ajustes de Efectos - Dispositivo Bluetooth</string>
     <string name="pref_dsp_enable">Habilitar</string>
     <string name="pref_effect_title">Seleccione Efecto de Intensidad</string>
@@ -53,6 +55,7 @@
     <string name="text_disabled">Desactivado</string>
     <string name="text_headset">Auriculares</string>
     <string name="text_bluetooth">Bluetooth</string>
+    <string name="text_speaker">Altavoz</string>
     <string name="text_showtrayicon">Mostrar notificación</string>
     <string name="text_lockeffect">Bloquear modo de efectos</string>
     <string name="text_yes">Si</string>

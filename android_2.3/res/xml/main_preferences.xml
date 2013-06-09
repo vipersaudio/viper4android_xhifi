@@ -6,6 +6,10 @@
 		<intent android:action="com.vipercn.viper4android.xhifi.HEADSET" />
 	</PreferenceScreen>
 
+	<PreferenceScreen android:title="@string/speaker_title">
+		<intent android:action="com.vipercn.viper4android.xhifi.SPEAKER" />
+	</PreferenceScreen>
+
 	<PreferenceScreen android:title="@string/bluetooth_title">
 		<intent android:action="com.vipercn.viper4android.xhifi.BLUETOOTH" />
 	</PreferenceScreen>
