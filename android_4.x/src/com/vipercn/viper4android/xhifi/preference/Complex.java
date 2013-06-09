@@ -50,4 +50,5 @@ class Complex
 	{
 		return new Complex(re / a, im / a);
 	}
+  }
 	
