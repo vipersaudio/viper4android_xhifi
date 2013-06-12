@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ViPER4Android XHiFi</string>
+    <string name="select_configuration_title">ViPER4Android XHiFi</string>
+    <string name="headset_title">НАУШНИКИ</string>
+	<string name="speaker_title">ДИНАМИК</string>
+    <string name="bluetooth_title">BLUETOOTH</string>
+    <string name="audio_effects">Аудио эффекты</string>
+    <string name="dsp_settings_headset">Настройка эффектов - Наушники</string>
+	<string name="dsp_settings_speaker">Настройка эффектов - Динамик</string>
+    <string name="dsp_settings_bluetooth">Настройка эффектов - Bluetooth</string>
+    <string name="pref_dsp_enable">Включение</string>
+    <string name="pref_effect_title">Выберите уровень</string>
+    <string name="dialog_effect">Уровень усиления</string>
+    <string name="pref_fx_master_title">Обработка</string>
+    <string name="pref_fx_master_summary_on">V4A-XHiFi включен</string>
+    <string name="pref_fx_master_summary_off">V4A-XHiFi отключен</string>
+    <string name="pref_fx_limiter_title">Ограничитель</string>
+    <string name="pref_fx_limiter_threshold">Предельный порог</string>
+    <string name="pref_output_gain">Усиление выходного сигнала</string>
+    <string name="pref_playback_title">Регулировка усиления</string>
+    <string name="pref_playback_summary_on">Автоматическая регулировка усиления (AGC) включена</string>
+    <string name="pref_playback_summary_off">Автоматическая регулировка усиления (AGC) включена</string>
+    <string name="pref_playback_output_threshold">Порог выходного сигнала</string>
+    <string name="pref_playback_maxgain">Максимальное усиление</string>
+    <string name="pref_equalizer_title">Эквалайзер</string>
+    <string name="pref_equalizer_summary_on">Эквалайзер включен</string>
+    <string name="pref_equalizer_summary_off">Эквалайзер отключен</string>
+    <string name="pref_equalizer_enable">Включение</string>
+    <string name="pref_equalizer_preset_title">Предустановки</string>
+    <string name="eq_preset_acoustic">Акустика</string>
+    <string name="eq_preset_bass_booster">Усиленные НЧ</string>
+    <string name="eq_preset_bass_reducer">Ослабленные НЧ</string>
+    <string name="eq_preset_classical">Классика</string>
+    <string name="eq_preset_deep">Глубина</string>
+    <string name="eq_preset_flat">Плоский</string>
+    <string name="eq_preset_r_and_b">R&amp;B</string>
+    <string name="eq_preset_rock">Рок</string>
+    <string name="eq_preset_small_speakers">Маленькие динамики</string>
+    <string name="eq_preset_treble_booster">Усиленные ВЧ</string>
+    <string name="eq_preset_treble_reducer">Ослабленные ВЧ</string>
+    <string name="eq_preset_vocal_booster">Усиленный вокал</string>
+    <string name="eq_preset_custom">Пользовательская</string>
+    <string name="pref_xfisound_title">Восстановление Аудио</string>
+    <string name="pref_xfisound_summary_on">Восстановление аудио включено</string>
+    <string name="pref_xfisound_summary_off">Восстановление аудио отключено</string>
+    <string name="pref_xfisound_enable">Включение</string>
+    <string name="pref_xfisound_process">Четкость звука</string>
+    <string name="pref_xfisound_process_title">Выберите значение четкости звука</string>
+    <string name="pref_xfisound_locontour">Звуковой контур</string>
+    <string name="pref_xfisound_locontour_title">Выберите значение звукового контура</string>
+    <string name="text_precious_float_unit">Bit Float</string>
+    <string name="text_token_lost">ViPER4Android: Невозможно запустить эффекты, попробуйте обновить драйвера.</string>
+    <string name="text_enabled">Включено</string>
+    <string name="text_disabled">отключено</string>
+    <string name="text_headset">Наушники</string>
+	<string name="text_speaker">Динамик</string>
+    <string name="text_bluetooth">Bluetooth</string>
+    <string name="text_showtrayicon">Показывать уведомления</string>
+    <string name="text_lockeffect">Режим блокировки</string>
+    <string name="text_yes">Да</string>
+    <string name="text_no">Нет</string>
+    <string name="text_normal">Нормально</string>
+    <string name="text_abnormal">Ненормально</string>
+	<string name="text_effectprofile">Профиль эффектов</string>
+    <string name="text_loadfxprofile">Загрузить профиль</string>
+    <string name="text_savefxprofile">Сохранить профиль</string>
+    <string name="text_pleaseinputname">Пожалуйста, введите Название профиля 
+\nИсключите знаки \'=\'</string>
+    <string name="text_profilesaved_ok">Профиль сохранен.</string>
+    <string name="text_profilesaved_err">Невозможно сохранить профиль, т.к. профиль с таким названием уже существует.</string>
+    <string name="text_profilesaved_overwrite">Профиль с таким названием уже существует, Вы хотите перезаписать его?</string>
+    <string name="text_profileload_ok">Профиль применен.</string>
+    <string name="text_profileload_err">Не удается применить профиль.</string>
+    <string name="text_rwsd_error">Не удается произвести чтение/запись с внешних накопителей.</string>
+    <string name="text_opensafemode">Безопасный режим</string>
+    <string name="text_closesafemode">Обычный режим</string>
+    <string name="text_modeswitchok">Драйвер установлен успешно. Пожалуйста, перезагрузите устройство.</string>
+    <string name="text_modeswitchfailed">Драйвер не установлен. Пожалуйста, проверьте наличие busybox.</string>
+    <string name="text_su_missing">Требуется наличие Root прав (su binary).</string>
+    <string name="text_busybox_missing">Busybox не обнаружен.
+\nДля использования ViPER4Android необходимо установить Busybox.</string>
+    <string name="text_ok">Ok</string>
+    <string name="text_cancel">Отмена</string>
+    <string name="text_select_cpu">Пожалуйста, выберите ваш процессор (кодек)</string>
+    <string name="text_drvvernotmatch">Для использования ViPER4Android, необходимо установить/обновить драйвер V4A.
+\nПроцесс установки пройдет автоматическим. 
+\nУстановить/Обновить сейчас?</string>
+    <string name="text_drvuninst_confim">Вы действительно хотите удалить v4a драйвер?</string>
+    <string name="text_user_statistics">v4a.active</string>
+    <string name="text_commode">Режим FX-совместимости</string>
+    <string name="text_drv_blank" />
+    <string name="text_uninstall">Удалить драйвер</string>
+    <string name="text_install">Установить драйвер</string>
+    <string name="text_drvinst_ok">Драйвер установлен. Пожалуйста, перезагрузите устройство.</string>
+    <string name="text_drvuninst_ok">Драйвер удален. Пожалуйста, перезагрузите устройство.</string>
+    <string name="text_drvinst_failed">Не удалось установить драйвер. Проверьте наличие root-прав и наличие busybox.</string>
+    <string name="text_changelog">Что нового</string>
+    <string name="text_drv_status">Состояние драйвера</string>
+    <string name="text_drv_status_view">
+\n
+\nВерсия драйвера: %1$s 
+\nV4A включен: %2$s 
+\nСостояние: %3$s 
+\nОбработка: %4$s 
+\nКачество: %5$s 
+\nЧастота дискретизации: %6$d 
+\nКаналов: %7$d 
+\n
+</string>
+    <string name="text_service_error">Не удалось запустить ViPER4Android.</string>
+    <string name="about_title">Описание и помощь</string>
+    <string name="about_text">"***О ViPER4Android***
+\n
+\n'libv4a_xx_xx.so' это ядро ViPER4Android. 
+\n'ViPER4Android.apk' это панель управления ViPER4Android. 
+\nОснова приложения - код DSPManager для CyanogenMod.
+\nВерсия %1$s (XHiFi), Codename X-Factor.
+\n
+\nCopyright © 2006-2016, vipercn.com. All rights reserved.
+\nКоммерческое использование без официального разрешения запрещено.
+\nОфициальный форум: forum.vipersaudio.com
+</string>
+    <string name="text_help_content">"***Общая справка*** 
+\n
+\n'Install Driver' - Установить драйвер эффектов.
+\n'Uninstall Driver' - Удалить драйвер эффектов. 
+\n'Switch to Safe Mode' - Переключить драйвер в безопасный режим. 
+\n'Switch to Normal Mode' - Переключить драйвер в нормальный режим. 
+\n'FX Compatible Mode' - Установить режим fx-совместимости. 
+\n'Normal' - Сделать ViPER4Android глобальным эффектом. 
+\n'Compatible' - Сделать ViPER4Android локальным эффектом. 
+\n
+\n<b>Не работают эффекты в сторонних медиаплеерах?</b>
+\nПереключить драйвер в безопасный режим (переключите в Safe Mode) и попробуйте снова. 
+\nЕсли не помогло, можно переключиться в режим fx-совместимости и попробовать еще раз. 
+\n
+\n<b>Forum: http://forum.xda-developers.com/showthread.php?t=2191223</b></string>
+    <string name="text_forum_link">http://forum.xda-developers.com/showthread.php?t=2191223</string>
+    <string name="text_view_forum">Форум</string>
+</resources>
