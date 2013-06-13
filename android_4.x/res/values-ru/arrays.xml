@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cpu_platform_fx">
+        <item>Старые ARM (ARMv5TE)</item>
+        <item>NVIDIA Tegra2</item>
+        <item>CortexA8 с NEON</item>
+        <item>CortexA9/15 с NEON</item>
+    </string-array>
+	 <string-array name="cpu_platform_fx_values">
+        <item>libv4a_fx_ics_ARMv5TE.so</item>
+        <item>libv4a_fx_ics_T2.so</item>
+        <item>libv4a_fx_ics_CortexA8.so</item>
+        <item>libv4a_fx_ics_CortexA9.so</item>
+    </string-array>
+    <string-array name="cpu_platform_xhifi">
+        <item>Без VFP (PXA920)</item>
+        <item>С VFP</item>
+        <item>CortexAx with NEON</item>
+    </string-array>
+    <string-array name="cpu_platform_xhifi_values">
+        <item>libv4a_xhifi_ics_NOVFP.so</item>
+        <item>libv4a_xhifi_ics_VFP.so</item>
+        <item>libv4a_xhifi_ics_NEON.so</item>
+    </string-array>
+    <string-array name="compatible_mode">
+		<item>Нормальный</item>
+        <item>Совместимый</item>
+    </string-array>
+    <string-array name="compatible_mode_values">
+        <item>глобально</item>
+        <item>локально</item>
+    </string-array>
+    <string-array name="playbackgain_ratio">
+        <item>Слабый</item>
+        <item>Средний</item>
+        <item>Максимальный</item>
+    </string-array>
+	<string-array name="playbackgain_ratio_values">
+        <item>50</item>
+        <item>100</item>
+        <item>300</item>
+    </string-array>
+    <string-array name="multi_factor">
+        <item>1x</item>
+        <item>2x</item>
+        <item>3x</item>
+        <item>4x</item>
+        <item>5x</item>
+        <item>6x</item>
+        <item>7x</item>
+        <item>8x</item>
+        <item>9x</item>
+        <item>10x</item>
+        <item>Бесконечно</item>
+    </string-array>
+	 <string-array name="multi_factor_values">
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>400</item>
+        <item>500</item>
+        <item>600</item>
+        <item>700</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>3000</item>
+    </string-array>
+	 <string-array name="equalizer_preset_modes">
+        <item>@string/eq_preset_acoustic</item>
+        <item>@string/eq_preset_bass_booster</item>
+        <item>@string/eq_preset_bass_reducer</item>
+        <item>@string/eq_preset_classical</item>
+        <item>@string/eq_preset_deep</item>
+        <item>@string/eq_preset_flat</item>
+        <item>@string/eq_preset_r_and_b</item>
+        <item>@string/eq_preset_rock</item>
+        <item>@string/eq_preset_small_speakers</item>
+        <item>@string/eq_preset_treble_booster</item>
+        <item>@string/eq_preset_treble_reducer</item>
+        <item>@string/eq_preset_vocal_booster</item>
+        <item>@string/eq_preset_custom</item>
+    </string-array>
+    <string-array name="equalizer_preset_values">
+        <item>4.5;4.5;3.5;1.2;1.0;0.5;1.4;1.75;3.5;2.5;</item>
+        <item>10.0;6.5;4.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item>
+        <item>-10.5;-6.5;-4.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item>
+        <item>4.0;4.0;3.25;1.0;0.0;0.0;-1.0;-0.5;2.0;2.0;</item>
+        <item>4.0;4.0;0.5;0.0;0.0;0.0;0.0;1.5;-4.0;-4.5;</item>
+        <item>0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;</item>
+        <item>5.5;5.5;3.5;0.0;0.0;0.0;0.0;-1.75;1.5;2.5;</item>
+        <item>4.5;4.5;2.75;0.0;0.0;0.0;0.0;-0.5;2.75;4.0;</item>
+        <item>6.5;6.5;4.0;0.0;0.0;0.0;0.0;0.0;-6.5;-4.0;</item>
+        <item>0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;4.0;2.0;</item>
+        <item>0.0;0.0;0.0;0.0;0.0;0.0;0.0;0.0;-6.5;-4.0;</item>
+        <item>-2.5;-2.5;0.0;0.0;0.0;0.0;0.0;3.5;1.5;-2.0;</item>
+        <item>Пользовательский</item>
+    </string-array>
+    <string-array name="output_db">
+        <item>0 дБ</item>
+        <item>-1.0 дБ</item>
+        <item>-1.9 дБ</item>
+        <item>-3.0 дБ</item>
+        <item>-6.0 дБ</item>
+        <item>-10.5 дБ</item>
+    </string-array>
+	<string-array name="output_db_values">
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>50</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="xfisound_process">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="xfisound_process_values">
+        <item>110</item>
+        <item>120</item>
+        <item>125</item>
+        <item>130</item>
+        <item>135</item>
+        <item>140</item>
+        <item>145</item>
+        <item>150</item>
+        <item>155</item>
+        <item>160</item>
+        <item>165</item>
+        <item>170</item>
+        <item>175</item>
+        <item>180</item>
+        <item>185</item>
+        <item>190</item>
+        <item>195</item>
+        <item>200</item>
+    </string-array>
+    <string-array name="xfisound_locontour">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+        <item>55</item>
+        <item>60</item>
+        <item>65</item>
+        <item>70</item>
+        <item>75</item>
+        <item>80</item>
+        <item>100</item>
+    </string-array>
+    <string-array name="xfisound_locontour_values">
+        <item>0</item>
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>110</item>
+        <item>130</item>
+        <item>150</item>
+    </string-array>
+    <string-array name="output_volume">
+        <item>6.0 дБ</item>
+        <item>5.6 дБ</item>
+        <item>5.1 дБ</item>
+        <item>4.6 дБ</item>
+        <item>4.1 дБ</item>
+        <item>3.5 дБ</item>
+        <item>2.9 дБ</item>
+        <item>2.3 дБ</item>
+        <item>1.6 дБ</item>
+        <item>0.8 дБ</item>
+        <item>0 дБ</item>
+        <item>-1.0 дБ</item>
+        <item>-1.9 дБ</item>
+        <item>-3.0 дБ</item>
+        <item>-4.4 дБ</item>
+        <item>-6.0 дБ</item>
+        <item>-8.0 дБ</item>
+        <item>-10.5 дБ</item>
+        <item>-14.0 дБ</item>
+        <item>-20.0 дБ</item>
+        <item>-26.0 дБ</item>
+        <item>-40.0 дБ</item>
+</string-array>
+    <string-array name="output_volume_values">
+        <item>200</item>
+        <item>190</item>
+        <item>180</item>
+        <item>170</item>
+        <item>160</item>
+        <item>150</item>
+        <item>140</item>
+        <item>130</item>
+        <item>120</item>
+        <item>110</item>
+        <item>100</item>
+        <item>90</item>
+        <item>80</item>
+        <item>70</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>20</item>
+        <item>10</item>
+        <item>5</item>
+        <item>1</item>
+    </string-array>
+</resources>
