@@ -1,5 +1,6 @@
 package com.vipercn.viper4android.xhifi.preference;
 
+
 class Complex
 {
 	private final double re, im;
@@ -50,4 +51,4 @@ class Complex
 	{
 		return new Complex(re / a, im / a);
 	}
-	
+}

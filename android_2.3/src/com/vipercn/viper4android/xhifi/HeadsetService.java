@@ -296,7 +296,7 @@ public class HeadsetService extends Service
 				ShowNotification(getString(getResources().getIdentifier("text_headset", "string", getApplicationInfo().packageName)));
 			else if (mode.equalsIgnoreCase("bluetooth"))
 				ShowNotification(getString(getResources().getIdentifier("text_bluetooth", "string", getApplicationInfo().packageName)));
-			else CancelNotification();
+			else ShowNotification(getString(getResources().getIdentifier("text_speaker", "string", getApplicationInfo().packageName)));
 
 			Log.i("ViPER4Android_XHiFi", "showNotifyReceiver::onReceive()");
 		}
@@ -663,7 +663,7 @@ public class HeadsetService extends Service
 				ShowNotification(getString(getResources().getIdentifier("text_headset", "string", getApplicationInfo().packageName)));
 			else if (mode.equalsIgnoreCase("bluetooth"))
 				ShowNotification(getString(getResources().getIdentifier("text_bluetooth", "string", getApplicationInfo().packageName)));
-			else CancelNotification();
+			else ShowNotification(getString(getResources().getIdentifier("text_speaker", "string", getApplicationInfo().packageName)));
 		}
 
 		SharedPreferences preferences = getSharedPreferences(ViPER4Android_XHiFi.SHARED_PREFERENCES_BASENAME + "." + mode, 0);	
@@ -776,7 +776,7 @@ public class HeadsetService extends Service
 				ShowNotification(getString(getResources().getIdentifier("text_headset", "string", getApplicationInfo().packageName)));
 			else if (mode.equalsIgnoreCase("bluetooth"))
 				ShowNotification(getString(getResources().getIdentifier("text_bluetooth", "string", getApplicationInfo().packageName)));
-			else CancelNotification();
+			else ShowNotification(getString(getResources().getIdentifier("text_speaker", "string", getApplicationInfo().packageName)));
 		}
 
 		SharedPreferences preferences = getSharedPreferences(ViPER4Android_XHiFi.SHARED_PREFERENCES_BASENAME + "." + mode, 0);	

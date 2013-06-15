@@ -1,11 +1,10 @@
-﻿ViPER4Android XHiFi v2.1.0.0
+﻿ViPER4Android XHiFi v2.1.0.2
 Codename: X-Factor
 Copyright (C) 2006-2016 vipercn.com
 
-Latest: v2.1.0.0
-1.Compatible with PXA920 chip (Tegra2 driver).
-2.Fix a treble boost bug.
-3.Tweak parameters of audio reconstruct.
+Latest: v2.1.0.2
+1.Support speaker effects.
+2.Fix some bugs.
 
 ************
 [v2.0.0.1]
@@ -69,4 +68,11 @@ Latest: v2.1.0.0
 1.Compatible with PXA920 chip (Tegra2 driver).
 2.Fix a treble boost bug.
 3.Tweak parameters of audio reconstruct.
+
+[v2.1.0.1]
+1.Fix bugs for VFP platform.
+
+[v2.1.0.2]
+1.Support speaker effects.
+2.Fix some bugs.
 ************

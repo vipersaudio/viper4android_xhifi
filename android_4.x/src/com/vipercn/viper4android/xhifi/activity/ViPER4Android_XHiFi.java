@@ -625,7 +625,6 @@ public final class ViPER4Android_XHiFi extends FragmentActivity
 
                 String routing = service.getAudioOutputRouting();
                 String[] entries = pagerAdapter.getEntries();
-                boolean foundPage = false;
                 for (int i = 0; i < entries.length; i++)
                 {
                     if (routing.equals(entries[i]))
@@ -633,15 +632,8 @@ public final class ViPER4Android_XHiFi extends FragmentActivity
                     	mCurrentPage = i;
                         viewPager.setCurrentItem(i);
                         actionBar.selectTab(actionBar.getTabAt(i));
-                        foundPage = true;
                         break;
                     }
-                }
-                if (!foundPage)
-                {
-                	mCurrentPage = 0;
-                    viewPager.setCurrentItem(0);
-                    actionBar.selectTab(actionBar.getTabAt(0));
                 }
                 unbindService(this);
             }
@@ -898,12 +890,13 @@ public final class ViPER4Android_XHiFi extends FragmentActivity
                 	{
                 		String szProfilePath = Environment.getExternalStorageDirectory() + "/ViPER4Android/ProfileXHiFi/";
 						Log.i("ViPER4Android_XHiFi", "Load effect profile, current page = " + mCurrentPage);
-						String szPreferenceName[] = new String[2];
+						String szPreferenceName[] = new String[3];
 						szPreferenceName[0] = ViPER4Android_XHiFi.SHARED_PREFERENCES_BASENAME + ".headset";
-						szPreferenceName[1] = ViPER4Android_XHiFi.SHARED_PREFERENCES_BASENAME + ".bluetooth";
+						szPreferenceName[1] = ViPER4Android_XHiFi.SHARED_PREFERENCES_BASENAME + ".speaker";
+						szPreferenceName[2] = ViPER4Android_XHiFi.SHARED_PREFERENCES_BASENAME + ".bluetooth";
 						int nIndex = mCurrentPage;
 						if (nIndex < 0) nIndex = 0;
-						if (nIndex > 1) nIndex = 1;
+						if (nIndex > 2) nIndex = 2;
 
                     	String arrayProfileList[] = new String[mProfileList.size()];
                     	for (int nPrfIdx = 0; nPrfIdx < mProfileList.size(); nPrfIdx++)
@@ -1015,12 +1008,13 @@ public final class ViPER4Android_XHiFi extends FragmentActivity
 											public void onClick(DialogInterface dialog, int which)
 											{
 												Log.i("ViPER4Android_XHiFi", "Save effect profile, current page = " + mCurrentPage);
-												String szPreferenceName[] = new String[2];
+												String szPreferenceName[] = new String[3];
 												szPreferenceName[0] = ViPER4Android_XHiFi.SHARED_PREFERENCES_BASENAME + ".headset";
+												szPreferenceName[1] = ViPER4Android_XHiFi.SHARED_PREFERENCES_BASENAME + ".speaker";
 												szPreferenceName[1] = ViPER4Android_XHiFi.SHARED_PREFERENCES_BASENAME + ".bluetooth";
 												int nIndex = mCurrentPage;
 												if (nIndex < 0) nIndex = 0;
-												if (nIndex > 1) nIndex = 1;
+												if (nIndex > 2) nIndex = 2;
 												Utils.SaveProfile(szSaveProfileNameGlobal, Environment.getExternalStorageDirectory() + "/ViPER4Android/ProfileXHiFi/", szPreferenceName[nIndex], mActivityContext);
 												Toast.makeText(mActivityContext, mActivityContext.getResources().getString(R.string.text_profilesaved_ok), Toast.LENGTH_LONG).show();
 											}
@@ -1032,12 +1026,13 @@ public final class ViPER4Android_XHiFi extends FragmentActivity
 									}
 
 									Log.i("ViPER4Android_XHiFi", "Save effect profile, current page = " + mCurrentPage);
-									String szPreferenceName[] = new String[2];
+									String szPreferenceName[] = new String[3];
 									szPreferenceName[0] = ViPER4Android_XHiFi.SHARED_PREFERENCES_BASENAME + ".headset";
-									szPreferenceName[1] = ViPER4Android_XHiFi.SHARED_PREFERENCES_BASENAME + ".bluetooth";
+									szPreferenceName[1] = ViPER4Android_XHiFi.SHARED_PREFERENCES_BASENAME + ".speaker";
+									szPreferenceName[2] = ViPER4Android_XHiFi.SHARED_PREFERENCES_BASENAME + ".bluetooth";
 									int nIndex = mCurrentPage;
 									if (nIndex < 0) nIndex = 0;
-									if (nIndex > 1) nIndex = 1;
+									if (nIndex > 2) nIndex = 2;
 									Utils.SaveProfile(szProfileName, Environment.getExternalStorageDirectory() + "/ViPER4Android/ProfileXHiFi/", szPreferenceName[nIndex], mActivityContext);
 									Toast.makeText(mActivityContext, getResources().getString(R.string.text_profilesaved_ok), Toast.LENGTH_LONG).show();
 								}
@@ -1290,6 +1285,7 @@ class MyAdapter extends FragmentPagerAdapter
 
         tmpEntries = new ArrayList<String>();
         tmpEntries.add("headset");
+        tmpEntries.add("speaker");
         tmpEntries.add("bluetooth");
 
         entries = (String[]) tmpEntries.toArray(new String[tmpEntries.size()]);
