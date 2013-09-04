@@ -1,10 +1,9 @@
-﻿ViPER4Android XHiFi v2.1.0.2
+﻿ViPER4Android XHiFi v2.1.0.2-1
 Codename: X-Factor
 Copyright (C) 2006-2016 vipercn.com
 
-Latest: v2.1.0.2
-1.Support speaker effects.
-2.Fix some bugs.
+Latest: v2.1.0.2-1
+1.Support android 4.3
 
 ************
 [v2.0.0.1]
@@ -75,4 +74,7 @@ Latest: v2.1.0.2
 [v2.1.0.2]
 1.Support speaker effects.
 2.Fix some bugs.
+
+[v2.1.0.2-1]
+1.Support android 4.3
 ************

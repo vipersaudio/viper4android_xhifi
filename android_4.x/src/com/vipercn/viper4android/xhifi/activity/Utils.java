@@ -3,6 +3,7 @@ package com.vipercn.viper4android.xhifi.activity;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.SharedPreferences.Editor;
+import android.os.Build;
 import android.os.Environment;
 import android.util.Log;
 
@@ -886,8 +887,15 @@ public class Utils
     	String szChmod  = szToolbox + " chmod";
     	String szSync   = szToolbox + " sync";
 
-    	String szSystemConf = Environment.getExternalStorageDirectory() + "/v4a_audio_system.conf";
-    	String szVendorConf = Environment.getExternalStorageDirectory() + "/v4a_audio_vendor.conf";
+    	// Generate temp config file path, thanks to 'ste71m'
+    	String szExternalStoragePathName = Environment.getExternalStorageDirectory().getAbsolutePath();
+    	if (Build.VERSION.SDK_INT >= 18)
+    	{
+    		if (szExternalStoragePathName.endsWith("/emulated/0"))
+    			szExternalStoragePathName = szExternalStoragePathName.replace("/emulated/0", "/emulated/legacy");
+    	}
+    	String szSystemConf = szExternalStoragePathName + "/v4a_audio_system.conf";
+    	String szVendorConf = szExternalStoragePathName + "/v4a_audio_vendor.conf";
 
     	boolean bExistsVendor = false;
     	if (fileExists("/system/vendor/etc/audio_effects.conf"))

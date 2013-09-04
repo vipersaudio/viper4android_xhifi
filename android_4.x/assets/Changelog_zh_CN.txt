@@ -1,10 +1,9 @@
-﻿ViPER4Android XHiFi v2.1.0.2
+﻿ViPER4Android XHiFi v2.1.0.2-1
 代号：X-Factor
 Copyright (C) 2006-2016 vipercn.com
 
-最新版：v2.1.0.2
-1、增加扬声器效果(扬声器无锁定模式)。
-2、修复一些潜藏的bug。
+最新版：v2.1.0.2-1
+1、支持 Android 4.3。
 
 ************
 [v2.0.0.1]
@@ -76,4 +75,7 @@ Copyright (C) 2006-2016 vipercn.com
 [v2.1.0.2]
 1、增加扬声器效果(扬声器无锁定模式)。
 2、修复一些潜藏的bug。
+
+[v2.1.0.2-1]
+1、支持 Android 4.3。
 ************
